@@ -1,0 +1,19 @@
+name: qsar-proj1
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - rdkit
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - pip
+  - pip:
+      - scikit-learn
+      - chembl-webresource-client
+      - jupyter
+      - jupyterlab
+      - ipykernel
+      - ipywidgets
